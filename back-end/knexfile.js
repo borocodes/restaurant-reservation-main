@@ -29,6 +29,7 @@ module.exports = {
     },
     debug: !!DEBUG,
   },
+  
   test: {
     client: "postgresql",
     pool: { min: 1, max: 5 },
